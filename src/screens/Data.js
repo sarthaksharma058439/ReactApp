@@ -1,47 +1,44 @@
 const data = [
-		// {
-		// 	name:"Application",
-		// 	children:[
-		// 		{
-		// 			name:"Calendar",
-		// 			children:null,
-		// 			type:"file"
-		// 		}
-		// 	],
-		// 	type:"folder"
-		// },
-		// {
-		// 	name:"Documents",
-		// 	children:[
-		// 		{
-		// 			name:"OSS",
-		// 			children:null,
-		// 			type:"file"
-		// 		},
-		// 		{
-		// 			name:"MUI",
-		// 			children:[
-		// 				{
-		// 					name:"index.js",
-		// 					children:null,
-		// 					type:"file"
-		// 				},
-		// 			],
-		// 			type:"folder"
-		// 		},
-		// 	],
-		// 	type:"folder"
-		// }
 		{
-			name:"config.yml",
-			children:null,
-			type:"file"
+			name:"src",
+			children:[
+				{
+					name:"file",
+					children:null,
+					type:"file"
+				}
+			],
+			type:"folder"
 		},
 		{
-			name:"jinjatemplate.html",
-			children:null,
-			type:"file"
-		},
+			name:"document",
+			children:[
+				
+				{
+					name:"json",
+					children:[
+						{
+							name:"config.json",
+							children:null,
+							type:"file"
+						},
+					],
+					type:"folder"
+				},
+				{
+					name:"jinja",
+					children:[
+						{
+							name:"jinjatemplate.html",
+							children:null,
+							type:"file"
+						},
+					],
+					type:"folder"
+				},
+			],
+			type:"folder"
+		}
 		
 	]
 export default data

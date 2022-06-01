@@ -57,7 +57,7 @@ export default function MainScreen (){
 
               <div className='flex w-2/3 bg-blue-100 h-full'>
                 <AceEditor
-                placeholder="Placeholder Text"
+                placeholder=""
                 height='100vh'
                 width='100%'
                 theme="monokai"
